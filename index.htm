@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This are what javascrit can do</h1>
+    <p id="first">It can change HTML content</p>
+    <button type="button" onclick="document.getElementById('first').innerHTML = 'HELLO JAVASCRIIPT!'">click me!</button>
+
+
+    <p>In this case Javascpt changes the value of the src (source) attribute of an image</p>
+    <button onclick="document.getElementById('second').src='download.jpg'">Turn on the light</button>
+    
+    <img src="download off.jpg" id="second" alt="bulb" style="width: 100px;">
+
+    <button onclick="document.getElementById('second').src='download off.jpg'">Turn off the light</button>
+</body>
+</html>
